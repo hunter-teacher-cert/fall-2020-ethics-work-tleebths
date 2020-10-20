@@ -36,3 +36,6 @@ attend class, in the wealthiest country on Earth. The differences help reinforce
 [The Digital Divide: A Quarter of the Nation Is Without Broadband](https://time.com/4718032/the-digital-divide/)
 [What the coronavirus reveals about the digital divide between schools and communities](https://www.brookings.edu/blog/techtank/2020/03/17/what-the-coronavirus-reveals-about-the-digital-divide-between-schools-and-communities/)
 [The Digital Divide Starts With a Laptop Shortage](https://www.nytimes.com/2020/10/12/technology/laptops-schools-digital-divide.html)
+
+4. Bias (Algorithmic & Otherwise)
+[Instagram censored one of these photos but not the other. We must ask why](https://www.theguardian.com/technology/2020/oct/20/instagram-censored-one-of-these-photos-but-not-the-other-we-must-ask-why)
