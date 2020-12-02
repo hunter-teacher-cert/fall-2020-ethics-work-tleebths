@@ -1,0 +1,48 @@
+<!-- https://html-online.com/editor/
+https://www.dbswebsite.com/blog/ada-compliance-starts-with-accessible-design/
+-->
+<p>&nbsp;</p>
+<!-- #######  YAY, I AM THE SOURCE EDITOR! #########-->
+<h1 style="color: #5e9ca0;">WCAG Comformance, or not</h1>
+<p>Below are some examples of do's &amp; don'ts of website design.</p>
+<p>&nbsp;<span style="background-color: #2b2301; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; border-radius: 5px;">Perceivable</span></p>
+<p>Proper contrast ratio is crucial for people with low vision or those working in brightly lit environments. A poor example is the <span style="background-color: #2b2301; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; border-radius: 5px;">low contrast</span> . WCAG requires a contrast ratio of at least 4.5:1. <a title="Webaim" href="https://webaim.org/resources/contrastchecker/" target="_blank" rel="noopener">Here's an easy tool</a> to check your ratio.</p>
+<p>But don't rely on color alone.</p>
+<table style="width: 692px;">
+<tbody>
+<tr>
+<td style="width: 264.8px;">People with colorblindness will have trouble identifying the information in the following image.</td>
+<td style="width: 409.2px;">Instead, use other types of information, like position, brightness, and shapes.</td>
+</tr>
+<tr>
+<td style="width: 264.8px;"><img class="n3VNCb" style="width: 165px; height: 165px; margin: 0px;" src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Ishihara_9.png" alt="Color blindness test image - Wikipedia" width="165" height="165" data-noaft="1" /></td>
+<td style="width: 409.2px;"><img class="n3VNCb" style="width: 187px; height: 139px; margin: 0px;" src="https://media.istockphoto.com/photos/traffic-lights-red-yellow-green-against-sky-picture-id689407322?k=6&amp;m=689407322&amp;s=612x612&amp;w=0&amp;h=iJiZjUBIFjdgvyeBJbZjaZZxsmSQYVy_tAWNycI6gL0=" alt="Traffic Light Photo: green brighter than yellow brighter than red, and each is lower than the next color" width="187" height="139" data-noaft="1" />&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://www.zoro.com/static/cms/product/prev/Z3rA5tqcp7x_.JPG" alt="Octagonal stop sign with white text on bright red background" width="140" height="140" /></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp; <span style="background-color: #2b2301; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; border-radius: 5px;">Understandable</span></p>
+<p>You may be tempted to do this. But the labels may escape the attention of screenreaders, or present problems for people with cognitive deficiencies.</p>
+<form action="/my-handling-form-page" method="post">
+<div><input id="name" name="user_name" type="text" value="Name" /></div>
+<div><input id="mail" name="user_email" type="email" value="Email" /></div>
+<div class="button"><button type="submit">Send your message</button></div>
+</form>
+<p>Instead, descriptive labels should be placed outside form fields.</p>
+<form action="/my-handling-form-page" method="post">
+<div><label for="name">Name:</label> <input id="name" name="user_name" type="text" /></div>
+<div><label for="mail">E-mail:</label> <input id="mail" name="user_email" type="email" /></div>
+<div class="button"><button type="submit">Send your message</button></div>
+</form>
+<p>&nbsp;</p>
+<p><span style="background-color: #2b2301; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; border-radius: 5px;">Operable</span></p>
+<p>In the form above, [tab] and [Shift+Tab] can be used to navigate the fields. The same should go for any menus on the page. The order of the elements should be logical, and any element that can be "tabbed into" should also be able to be tabbed out of.</p>
+<p>Here are two examples of what not to do--a keyboard trap, and illogical ordering.</p>
+<p><img class="wl wm dx dn dj iz v c" src="https://miro.medium.com/max/480/1*Vs42EenwsM4tP39GjbztuQ.gif" sizes="480px" srcset="https://miro.medium.com/max/276/1*Vs42EenwsM4tP39GjbztuQ.gif 276w, https://miro.medium.com/max/480/1*Vs42EenwsM4tP39GjbztuQ.gif 480w" alt="Image for post" width="480" height="384" /></p>
+<p><img class="wl wm dx dn dj iz v c" src="https://miro.medium.com/max/1448/1*1ZuhinMBb5FiSMtPplklwQ.gif" sizes="1000px" srcset="https://miro.medium.com/max/276/1*1ZuhinMBb5FiSMtPplklwQ.gif 276w, https://miro.medium.com/max/552/1*1ZuhinMBb5FiSMtPplklwQ.gif 552w, https://miro.medium.com/max/640/1*1ZuhinMBb5FiSMtPplklwQ.gif 640w, https://miro.medium.com/max/728/1*1ZuhinMBb5FiSMtPplklwQ.gif 728w, https://miro.medium.com/max/816/1*1ZuhinMBb5FiSMtPplklwQ.gif 816w, https://miro.medium.com/max/904/1*1ZuhinMBb5FiSMtPplklwQ.gif 904w, https://miro.medium.com/max/992/1*1ZuhinMBb5FiSMtPplklwQ.gif 992w, https://miro.medium.com/max/1000/1*1ZuhinMBb5FiSMtPplklwQ.gif 1000w" alt="Image for post" width="1448" height="282" /></p>
+<p>&nbsp;</p>
+<p><span style="background-color: #2b2301; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; border-radius: 5px;">Robust</span></p>
+<p>The page should maximize compatibility with current and future user agents, including assistive technologies.</p>
+<p>&nbsp;</p>
+<p><strong>Final Words</strong></p>
+<p>A principle demonstrated on this page is simpled heading and spacing. Cluttered sections present difficulties for people with ADD, and can turn off people with more usual abilities.</p>
