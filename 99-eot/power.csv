@@ -1,0 +1,5 @@
+Energy Source,%,Generation (TWh),Emissions (Million Metric Tons),Ratio of Emissions to Generation (Million Metric Tons/TWh),Emission Contribution/Bitcoin-Transaction,# of Homes' Yearly Energy Use per Bitcoin-Transaction
+Petroleum,0.03,903,195.9929895,0.2170465,0.00000000061207113,0.00007059643945
+Natural Gas,0.23,6091,1096.672368,0.180048,0.00000000389263776,0.000448977827
+Coal,0.38,10116,3371.596034,0.3332934,0.00000001190524025,0.001373153431
+Non-Fossil,0.36,9563,0,0,0,0
